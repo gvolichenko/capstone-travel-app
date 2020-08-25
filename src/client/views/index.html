@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Travel App</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+</head>
+ <body>
+<div id = "app">
+  <div class ="headline">
+    The Great Travel App
+  </div>
+  <div class="input_container">
+    <div class ="destination">
+      <label for="destination">Enter Your Destination Here</label>
+      <input type="text" id="destination" placeholder="E.g. Detroit, MI or Moscow, Russia">
+    </div>
+    <div class ="tripdate">
+      <label for="tripdate">And the date</label>
+      <input type="date" id="tripdate" placeholder='2020-09-01'></textarea>
+    </div>
+    <div class = "button_container">
+      <button id="generate" type = "submit"> Generate </button>
+    </div>
+    <div class="image_container">
+      <img id="main_image">
+      
+    </div>
+  </div>
+  
+  <div class ="entry">
+    
+   <div class = "entryHolder">
+    <div class = "title">Useful details for your trip</div> 
+    <div id = "placename"></div>
+    <div id = "tripdateDisplay"></div>
+    <div id = "countdown"></div>
+    <div id = "temperature"></div>
+  </div>
+  <div class = "country_holder">
+    <img id="flag">
+    <div id="country"></div>
+  </div>
+  </div>
+  </div>
+</body>
+</html>
