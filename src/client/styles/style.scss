@@ -108,19 +108,23 @@ input{
     font-family: 'Oswald', sans-serif;
     padding-left: 10px;
 }
-
+input:hover{
+    background: #3b4a6b;
+}
 button{
-    
-    align-self: left;
     width: 200px;
     height: 40px;
     background: #3b4a6b;
     color: #f0d43a;
     font-size: 26px;
     font-family: 'Oswald', sans-serif;
-    border: none;
     box-shadow: 2px 4px 5px #444;
     cursor: pointer;
+    border:none;
+}
+button:hover{
+    background-color: #22b2da; /* Green */
+
 }
 h1{
     font-size: 36px;
@@ -174,12 +178,14 @@ textarea{
  }
 
 /* Reset style for HTML element on active to have no border*/
+
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
     outline: none;
 }
+
 /* Style for Placeholder Text*/
 ::placeholder { /* Firefox, Chrome, Opera */ 
     color: #f0d43a; 
