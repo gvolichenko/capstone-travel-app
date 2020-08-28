@@ -17,7 +17,7 @@ This web app will help you plan for the next trip by providing information on we
 ### Testing Dev Mode
 6. In a new terminal window (keep the server running), enter the dev mode using `npm run build-dev`
 7. A new browser window will appear with the web app
-8. Follow the steps in User Instructions](https://github.com/gvolichenko/capstone-travel-app#user-instructions) 
+8. Follow the steps in [User Instructions](https://github.com/gvolichenko/capstone-travel-app#user-instructions) 
 
 ### Testing the Jest tests
 9. Inside the directory in terminal, run `jest`
