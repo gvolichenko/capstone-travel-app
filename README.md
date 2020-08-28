@@ -12,12 +12,12 @@ This web app will help you plan for the next trip by providing information on we
 3. To build the necessary directories for production mode, run `npm run build-prod`
 4. Start up the server using `npm run start`
 5. Access the web app by opening the `index.html` file in the `dist` folder of the project directory
-6. Follow the steps in User Instructions below
+6. Follow the steps in [User Instructions](https://github.com/gvolichenko/capstone-travel-app#user-instructions) 
 
 ### Testing Dev Mode
 6. In a new terminal window (keep the server running), enter the dev mode using `npm run build-dev`
 7. A new browser window will appear with the web app
-8. Follow the steps in User Instructions below
+8. Follow the steps in User Instructions](https://github.com/gvolichenko/capstone-travel-app#user-instructions) 
 
 ### Testing the Jest tests
 9. Inside the directory in terminal, run `jest`
